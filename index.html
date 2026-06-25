@@ -62,6 +62,24 @@ article p { margin:0; }
 .race-history li, .anecdotes li { margin:4px 0; }
 .anecdotes { border-color:#d3d9c8; background:#fbfdf7; }
 .personal-life { border-color:#c8d4df; background:#f7fbff; }
+
+.prep-index { margin-bottom:30px; }
+.prep-links { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:12px; }
+.prep-link { display:block; text-decoration:none; border:1px solid var(--line); background:#fffdf8; border-radius:8px; padding:14px; box-shadow:0 1px 0 rgba(0,0,0,.04); }
+.prep-link:hover { transform:translateY(-1px); box-shadow:0 8px 18px rgba(0,0,0,.07); }
+.prep-link strong { display:block; font-size:16px; line-height:1.35; color:var(--green); }
+.prep-link span, .prep-link small { display:block; color:var(--muted); font-size:13px; margin-top:4px; }
+.prep-content { margin-top:34px; }
+.prep-chapter { margin-top:18px; background:#fffdf8; }
+.prep-chapter h2 { margin:0 0 12px; font-size:26px; color:var(--red); }
+.prep-chapter h3 { margin:20px 0 8px; font-size:19px; color:var(--green); }
+.prep-chapter h4 { margin:16px 0 8px; font-size:16px; color:var(--ink); }
+.prep-chapter table { width:100%; border-collapse:collapse; margin:10px 0 16px; font-size:14px; }
+.prep-chapter th, .prep-chapter td { border:1px solid var(--line); padding:8px; text-align:left; vertical-align:top; }
+.prep-chapter th { background:#f2eadc; }
+.prep-chapter blockquote { margin:12px 0; border-left:4px solid var(--gold); padding:8px 12px; background:#fff8e8; color:#40351b; }
+.prep-chapter ul { margin:8px 0 14px; padding-left:22px; }
+.prep-chapter li { margin:4px 0; }
 </style>
 </head>
 <body id="top">
@@ -70,11 +88,27 @@ article p { margin:0; }
     <div class="kicker">Western States 100 · 2026 中文解说资料</div>
     <h1>40 位可能进入前10的关键选手</h1>
     <p>依据 Western States 官网 2026 Entrants List（最后更新 2026-06-24 09:08）与 2026 官方媒体稿整理。比赛日期：2026-06-27 至 06-28，起点 Olympic Valley，终点 Auburn Placer High School。</p>
-    <div class="nav-pills"><a href="#directory">目录</a><a href="#men">男子 20</a><a href="#women">女子 20</a><a href="#sources">资料来源</a></div>
+    <div class="nav-pills"><a href="#prep">解说准备包</a><a href="#directory">目录</a><a href="#men">男子 20</a><a href="#women">女子 20</a><a href="#sources">资料来源</a></div>
   </div>
 </header>
 <main>
-  <p class="note">使用提示：点击目录页照片或名字跳转到详情。伤病信息只写公开资料可支撑的内容；没有可靠公开信息时标为“未见赛前重大近期伤病公开信息”。图片为按姓名生成的公开图片缩略图入口，赛前直播使用时建议再点开来源页核对肖像授权。</p>
+  <p class="note">使用提示：先看“解说准备包”快速进入比赛背景、赛道、话术和术语；再点击目录页照片或名字跳转到运动员详情。伤病信息只写公开资料可支撑的内容；没有可靠公开信息时标为“未见赛前重大近期伤病公开信息”。</p>
+  <section id="prep" class="prep-index">
+    <div class="section-title"><h2>解说准备包</h2><span>比赛背景 / 赛道 / 话术 / 术语</span></div>
+    <div class="prep-links">
+<a class="prep-link" href="#prep-core"><strong>一、比赛核心档案<span>（必背数据）</span></strong><small>点击跳转到本章</small></a>
+<a class="prep-link" href="#prep-course"><strong>二、赛道解析<span>（解说关键）</span></strong><small>点击跳转到本章</small></a>
+<a class="prep-link" href="#prep-history"><strong>三、赛事历史背景<span>（解说深度加分项）</span></strong><small>点击跳转到本章</small></a>
+<a class="prep-link" href="#prep-field"><strong>四、2026年参赛阵容<span>（核心选手档案）</span></strong><small>点击跳转到本章</small></a>
+<a class="prep-link" href="#prep-timeline"><strong>五、比赛流程时间线<span>（转播参考）</span></strong><small>点击跳转到本章</small></a>
+<a class="prep-link" href="#prep-scripts"><strong>六、中文解说话术模板</strong><small>点击跳转到本章</small></a>
+<a class="prep-link" href="#prep-save"><strong>七、冷场救场话题包</strong><small>点击跳转到本章</small></a>
+<a class="prep-link" href="#prep-terms"><strong>八、专业术语速查<span>（中英对照）</span></strong><small>点击跳转到本章</small></a>
+<a class="prep-link" href="#prep-checklist"><strong>九、比赛日准备清单</strong><small>点击跳转到本章</small></a>
+<a class="prep-link" href="#prep-10"><strong>十、高阶主播心法</strong><small>点击跳转到本章</small></a>
+<a class="prep-link" href="#prep-11"><strong>十一、精英选手快速档案卡<span>（裁剪随身带）</span></strong><small>点击跳转到本章</small></a>
+    </div>
+  </section>
   <section id="directory">
     <div class="section-title"><h2>目录页</h2><span>点击运动员卡片进入详情</span></div>
     <div class="directory-split">
@@ -1252,6 +1286,349 @@ article p { margin:0; }
           <div class="source-row"><a href="https://www.wser.org/2026-entrants-list/" target="_blank" rel="noopener">来源 1</a></div>
           <a class="back" href="#top">返回目录</a>
         </section>
+  <section id="prep-content" class="prep-content">
+    <div class="section-title"><h2>解说准备包全文</h2><span>来自 western-states-100-commentary-prep.md</span></div>
+    <article id="prep-core" class="prep-chapter">
+      <h2>一、比赛核心档案（必背数据）</h2>
+<table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead>
+<tbody>
+<tr><td><strong>全称</strong></td><td>Western States 100-Mile Endurance Run</td></tr>
+<tr><td><strong>简称</strong></td><td>Western States / WS100</td></tr>
+<tr><td><strong>创办年份</strong></td><td>1974年 — 2026年是<strong>第53届</strong></td></tr>
+<tr><td><strong>比赛日期</strong></td><td>每年6月最后一个完整周末 — <strong>2026年：6月27日（周六）凌晨5:00发枪</strong></td></tr>
+<tr><td><strong>起点</strong></td><td>Olympic Valley, California（1960年冬奥会场地）</td></tr>
+<tr><td><strong>终点</strong></td><td>Placer High School, Auburn, California</td></tr>
+<tr><td><strong>总距离</strong></td><td><strong>100.2英里（161公里）</strong></td></tr>
+<tr><td><strong>总爬升</strong></td><td>+18,000英尺（约5,500米）</td></tr>
+<tr><td><strong>总下降</strong></td><td>-22,970英尺（约7,000米）</td></tr>
+<tr><td><strong>关门时间</strong></td><td>30小时（周日 10:59:59 前必须完赛）</td></tr>
+<tr><td><strong>参赛人数</strong></td><td>约400人</td></tr>
+<tr><td><strong>志愿者</strong></td><td>约1,500人</td></tr>
+<tr><td><strong>补给站</strong></td><td>20个（含10个医疗检查站）</td></tr>
+<tr><td><strong>报名方式</strong></td><td>抽签制 + Golden Ticket（选拔赛直通车）</td></tr>
+</tbody>
+</table>
+      <a class="back" href="#prep">返回解说准备包</a>
+    </article>
+    <article id="prep-course" class="prep-chapter">
+      <h2>二、赛道解析（解说关键）</h2>
+<h3>起点 → Emigrant Pass（0–4.5英里）</h3>
+<ul>
+<li>从 Olympic Valley（海拔6,200英尺）出发</li>
+<li>前4.5英里爬升2,550英尺，到达 <strong>Emigrant Pass（8,750英尺）</strong></li>
+<li>这是全赛程最高点，也是最难的爬升之一</li>
+<li>发枪时间凌晨5:00，天还没亮，头灯是强制装备</li>
+</ul>
+<h3>前半段（4.5–60英里）</h3>
+<ul>
+<li>穿过 Sierra Nevada 山脉的偏远小径</li>
+<li>经过 <strong>Robinson Flat</strong>（30英里补给站）和 <strong>Michigan Bluff</strong>（55英里补给站）</li>
+<li>有一段需要<strong>骑马或乘直升机才能到达</strong>的完全偏远区域</li>
+<li>有超过<strong>8英里的干燥无补给路段</strong></li>
+</ul>
+<h3>后半段（60–100.2英里）</h3>
+<ul>
+<li>进入 California 淘金历史地区</li>
+<li><strong>American River 渡河</strong>（78英里处）—— 最危险的环节，洪水年份用充气艇渡河</li>
+<li>Foresthill 补给站（62英里）是后半段最大站</li>
+<li>最后38英里有反光标记，供夜间奔跑</li>
+</ul>
+<h3>关键数据点</h3>
+<ul>
+<li>夜间奔跑路段：约占全程<strong>一半</strong></li>
+<li>天气温度范围：<strong>20°F（-7°C）到110°F（43°C）</strong>——一天之内可能经历冰火两重天</li>
+<li>强制装备：必须携带<strong>两支LED手电筒</strong>（夜间强制）</li>
+</ul>
+      <a class="back" href="#prep">返回解说准备包</a>
+    </article>
+    <article id="prep-history" class="prep-chapter">
+      <h2>三、赛事历史背景（解说深度加分项）</h2>
+<h3>1974年是如何诞生的</h3>
+<ul>
+<li>由 <strong>Gordy Ainsleigh</strong> 发起，他骑骑马跟踪100英里 trail horse race（塔基马赛），后来改成徒步赛跑</li>
+<li>最初几年被视为&quot;疯狂之举&quot;，现在被誉为<strong>超马运动的起源</strong></li>
+<li>赛道前身是1850年代淘金热时期矿工们踩出的 <strong>Western States Trail</strong>，从盐湖城一直延伸到萨克拉门托</li>
+</ul>
+<h3>赛道特点</h3>
+<ul>
+<li>是美国注册的休闲徒步道（nationally dedicated recreational trail）</li>
+<li>现在 trail 正在进行大规模重建，部分新路线2026年有望开放</li>
+</ul>
+      <a class="back" href="#prep">返回解说准备包</a>
+    </article>
+    <article id="prep-field" class="prep-chapter">
+      <h2>四、2026年参赛阵容（核心选手档案）</h2>
+<h3>🏃‍♂️ 男子组焦点选手</h3>
+<h4>Jim Walmsley（澳大利亚）— 头号焦点回归</h4>
+<table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead>
+<tbody>
+<tr><td><strong>外号</strong></td><td>&quot;Walmsley&quot; — 超马界的传奇人物</td></tr>
+<tr><td><strong>WS100战绩</strong></td><td><strong>4届冠军</strong>（2018、2019、2022、2024）+ <strong>赛道纪录保持者</strong></td></tr>
+<tr><td><strong>2019年纪录</strong></td><td><strong>14:09:28</strong>（史上最快）</td></tr>
+<tr><td><strong>2025年</strong></td><td>赛前退赛，2026年持赞助商外卡<strong>回归</strong></td></tr>
+<tr><td><strong>最新动态</strong></td><td>有伤在身，但仍在训练——能否五度加冕？</td></tr>
+</tbody>
+</table>
+<blockquote>
+<p>💬 <strong>解说句</strong>：</p>
+<p>&quot;Walmsley 在超马界的地位，大概相当于网球场上的费德勒——他曾经在这里连续多年碾压式夺冠，2019年把赛道纪录定格在14小时09分。2025年他赛前退赛，让整个超马圈都震惊了。今年他带着伤回来了。能否五度封王，这是今年最大的悬念。&quot;</p>
+</blockquote>
+<h4>Kilian Jornet（西班牙）— 传奇归来</h4>
+<table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead>
+<tbody>
+<tr><td><strong>外号</strong></td><td>&quot;The Sky Runner&quot;（天空跑者）</td></tr>
+<tr><td><strong>WS100战绩</strong></td><td>2025年<strong>第三名</strong>完赛</td></tr>
+<tr><td><strong>背景</strong></td><td>2025年是他<strong>时隔14年</strong>重返 WS100——上一次还是2011年</td></tr>
+<tr><td><strong>2026年</strong></td><td>在意大利 Chianti Ultra Trail 125K 输给 Walmsley，蓄力再战</td></tr>
+<tr><td><strong>地位</strong></td><td>可能是当今世界上<strong>最全面的山地跑者</strong>，速度极快，登山能力无人能及</td></tr>
+</tbody>
+</table>
+<blockquote>
+<p>💬 <strong>解说句</strong>：</p>
+<p>&quot;Kilian Jornet 可能是超马历史上唯一一个真正让观众觉得&#x27;他在飞&#x27;的选手。他从小在阿尔卑斯山长大，父亲是登山向导，两岁就开始登山。2025年他时隔14年回到 Western States，第三名完赛。今年的目标显然只有一个——冠军。&quot;</p>
+</blockquote>
+<h4>其他值得关注的男选手</h4>
+<ul>
+<li><strong>Adam Peterman</strong>（美国）— 2022年WS100冠军</li>
+<li><strong>Vincent Bouillard</strong>（法国）— 2024年 UTMB 冠军</li>
+<li><strong>Rod Farvard</strong>（美国）— 2024年WS100亚军，2025年 DNF</li>
+<li><strong>David Roche</strong>（美国）— Leadville + Javelina 双料冠军</li>
+<li><strong>Zach Miller</strong>（美国）— <strong>12年来首次参加WS100！</strong>（2014年拿过Golden Ticket但放弃了，今年卷土重来）</li>
+<li><strong>Riley Brady</strong>（美国）— 去年热门但因肠胃问题退赛，今年再挑战</li>
+</ul>
+<h3>🏃‍♀️ 女子组焦点选手</h3>
+<h4>Abby Hall（美国）— 卫冕冠军</h4>
+<table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead>
+<tbody>
+<tr><td><strong>2025年成绩</strong></td><td><strong>冠军</strong>，16:37:16（史上第四快女子成绩）</td></tr>
+<tr><td><strong>今年目标</strong></td><td>2012年以来<strong>首位女子连霸</strong>——自Ellie Greenwood之后无人做到</td></tr>
+<tr><td><strong>备战状态</strong></td><td>2026年 Black Canyon 100k 第五名，但时间比去年快23分钟</td></tr>
+</tbody>
+</table>
+<blockquote>
+<p>💬 <strong>解说句</strong>：</p>
+<p>&quot;Abby Hall 去年上演了一出完美剧本——前30英里紧跟领先集团，后半程独自领跑，最终以16小时37分夺冠，这是史上女子第四快成绩。更难得的是，她是带着一年的训练底子回来的，心态肯定和去年第一次参赛时不一样。&quot;</p>
+</blockquote>
+<h4>Jennifer Lichter（美国）— 100英里处子秀</h4>
+<table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead>
+<tbody>
+<tr><td><strong>最新动态</strong></td><td>2026年2月 <strong>Black Canyon 100k 冠军</strong>，并且大幅刷新赛道纪录（8小时内完成）</td></tr>
+<tr><td><strong>WS100意义</strong></td><td>这将是她的<strong>100英里首秀</strong></td></tr>
+<tr><td><strong>威胁程度</strong></td><td>iRunFar 预测：可能直接挑战冠军！</td></tr>
+</tbody>
+</table>
+<blockquote>
+<p>💬 <strong>解说句</strong>：</p>
+<p>&quot;Jennifer Lichter 今年2月份在 Black Canyon 100k 打破了赛道纪录，时间在8小时以内——这个成绩让她直接成为了今年WS100的热门。而且这是她的100英里首秀。如果她真的赢了，那将是超马历史上最震撼的处子秀之一。&quot;</p>
+</blockquote>
+<h4>其他值得关注的女子选手</h4>
+<ul>
+<li><strong>Fu-Zhao Xiang（向福昭）</strong>（中国）— 2024年、2025年连续两年亚军！史上女子第三快成绩（16:20，2024年）</li>
+<li><strong>Molly Seidel</strong>（美国）— 2020年奥运会马拉松铜牌得主！WS100首秀</li>
+<li><strong>Marianne Hogan</strong>（加拿大）— 2022、2024、2025年<strong>三次第三名</strong>，稳定型选手</li>
+<li><strong>Tara Dower</strong>（美国）— 2025年 Javelina 100 Mile 冠军，但2025年WS100 DNF</li>
+<li><strong>Emily Hawgood</strong>（津巴布韦/美国）— 女子组常年前十，五次top 10</li>
+</ul>
+      <a class="back" href="#prep">返回解说准备包</a>
+    </article>
+    <article id="prep-timeline" class="prep-chapter">
+      <h2>五、比赛流程时间线（转播参考）</h2>
+<h3>发枪前</h3>
+<ul>
+<li><strong>周五晚（6月26日）</strong>：号码布领取 + 装备检查</li>
+<li><strong>周六凌晨4:30</strong>：选手热身区开放</li>
+<li><strong>周六凌晨5:00（PT）</strong> 🔴：<strong>发枪！</strong></li>
+</ul>
+<h3>关键过站时间（预估男子精英完赛时间）</h3>
+<table>
+<thead><tr><th>里程碑</th><th>预估时间（精英）</th></tr></thead>
+<tbody>
+<tr><td>Emigrant Pass（4.5mi）</td><td>~1小时</td></tr>
+<tr><td>Robinson Flat（30mi）</td><td>~5.5小时</td></tr>
+<tr><td>Michigan Bluff（55mi）</td><td>~10小时</td></tr>
+<tr><td>Foresthill（62mi）</td><td>~11.5小时</td></tr>
+<tr><td>American River（78mi）</td><td>~14.5小时</td></tr>
+<tr><td><strong>终点 Auburn</strong></td><td><strong>约15-16小时（最快）</strong></td></tr>
+</tbody>
+</table>
+<h3>关门节奏</h3>
+<ul>
+<li>精英选手：14-16小时完赛</li>
+<li>正常sub-24小时完赛选手：各补给站有各自关门时间</li>
+<li>最后关门：<strong>周日 10:59:59</strong></li>
+</ul>
+      <a class="back" href="#prep">返回解说准备包</a>
+    </article>
+    <article id="prep-scripts" class="prep-chapter">
+      <h2>六、中文解说话术模板</h2>
+<h3>开场白（任选其一）</h3>
+<p><strong>A（宏大叙事型）</strong>：</p>
+<blockquote>
+<p>&quot;欢迎来到 Western States 100——超马跑者口中的&#x27;终极挑战&#x27;。100英里，从加州的高山草甸跑到淘金古镇Auburn，爬升相当于登顶珠穆朗玛峰的三分之一，下坡比全程马拉松还要长。每年6月最后一个周末，全世界最疯狂的一群人会聚集在 Olympic Valley，用两天不到的时间，去跑一条人类本不该跑的赛道。&quot;</p>
+</blockquote>
+<p><strong>B（个人故事型）</strong>：</p>
+<blockquote>
+<p>&quot;1974年，一个叫 Gordy Ainsleigh 的人骑马跟踪了一场100英里的耐力赛。后来他觉得骑马太无聊，干脆自己跑了起来——Western States 100 就这样诞生了。那时候没人相信有人能跑完100英里。52年后，每年有数千人在抽签池里抢400个名额，中签率大概跟申请哈佛差不多。&quot;</p>
+</blockquote>
+<p><strong>C（视觉冲击型）</strong>：</p>
+<blockquote>
+<p>&quot;想象一下——凌晨5点，400人在海拔6200英尺的山谷里站成一排，前方是4.5英里内爬升2500英尺的陡坡，天还没亮，头灯的光像一条银河。发令枪一响，这400个人开始往山上跑，而他们要跑的路，远在100英里之外。这，就是 Western States。&quot;</p>
+</blockquote>
+<h3>转场话术</h3>
+<p><strong>介绍赛道海拔</strong>：</p>
+<blockquote>
+<p>&quot;今年赛道的最高点叫 Emigrant Pass，海拔8750英尺——前4.5英里就要爬升2500英尺，这在任何马拉松赛里都是难以想象的开局。但对WS100来说，这只是开胃菜。&quot;</p>
+</blockquote>
+<p><strong>聊补给站志愿者</strong>：</p>
+<blockquote>
+<p>&quot;WS100有大约1500名志愿者，每个补给站都是一个小型节日。跑者在这里补充能量、处理水泡、甚至短暂冰浴。有意思的是，光是美国河渡河点一个地方，就需要125名工作人员——因为那是全赛段最危险的地方。&quot;</p>
+</blockquote>
+<p><strong>聊天气戏剧性</strong>：</p>
+<blockquote>
+<p>&quot;WS100有一种独特的&#x27;天气逻辑&#x27;——凌晨出发时可能只有20华氏度（-7°C），你穿着长袖在山上跑；下午到了峡谷底部，可能已经是110华氏度（43°C）——你一边灌冰水一边怀疑人生。同一场比赛里，你需要应对两极温差，这在任何其他运动里都是不可想象的。&quot;</p>
+</blockquote>
+<h3>选手表现话术</h3>
+<p><strong>选手加速超车时</strong>：</p>
+<blockquote>
+<p>&quot;看到了吗？刚才这个弯道一过，__（名字）__直接提速——这在超马比赛里叫&#x27;战略性加速&#x27;，就是在对手最疲惫的时候拉开差距。超马不是百米冲刺，它比的是谁在第90英里时还能跑起来。&quot;</p>
+</blockquote>
+<p><strong>选手进入困难路段</strong>：</p>
+<blockquote>
+<p>&quot;从补给站出来之后这段，是WS100最经典的一个挑战——超过8英里的无补给干燥路段。跑者必须自己背负足够的水和热量，这在100英里赛里是真正的心理考验。&quot;</p>
+</blockquote>
+<p><strong>完赛时刻</strong>：</p>
+<blockquote>
+<p>&quot;进了！他走进 Placer 高中体育场——全场观众起立。30小时之内，他们完成了100英里。有人用一天时间赚了一个硕士学位，有人用一天时间从 Olympic Valley 跑到了淘金古镇，而他们，用一步一步，跑完了人类耐力的极限。&quot;</p>
+</blockquote>
+      <a class="back" href="#prep">返回解说准备包</a>
+    </article>
+    <article id="prep-save" class="prep-chapter">
+      <h2>七、冷场救场话题包</h2>
+<h3>1️⃣ 100英里到底有多难？（适合任何时刻）</h3>
+<blockquote>
+<p>&quot;很多人问，100英里和100公里有什么区别？区别在于，100公里你咬咬牙可以当天完赛；100英里你必须在山里过一夜。你会在漆黑的夜里独自奔跑，头灯只能照亮前方十几米，周围全是森林和峡谷，体感温度可能降到零下，而你还要跑60英里才能到终点。这就是为什么，能完赛本身就是一种胜利。&quot;</p>
+</blockquote>
+<h3>2️⃣ 超马的&quot;负爬升&quot;哲学（聊赛道设计时）</h3>
+<blockquote>
+<p>&quot;WS100的总爬升是18000英尺，但总下降是将近23000英尺——下坡比上坡多了5000英尺。很多人以为，下坡容易，其实恰恰相反。连续23000英尺的下坡，对膝盖、脚踝、髋关节的冲击是巨大的。很多顶级跑者在后半程的崩溃，不是因为体力耗尽，而是因为腿部肌肉已经被下坡震得失去控制。&quot;</p>
+</blockquote>
+<h3>3️⃣ 补给站文化（聊志愿者故事）</h3>
+<blockquote>
+<p>&quot;WS100的补给站可能是全世界最特别的。跑者到达时，志愿者会喊出你的名字和号码——他们提前把你的补给包准备好，甚至知道你喜欢喝什么、要不要加盐。有些补给站有自制披萨、有的有素食 Thai 炒面，甚至有跑者说他们吃到过现做的味噌汤。1500名志愿者，很多人是几十年如一日地来服务——这是WS100的灵魂。&quot;</p>
+</blockquote>
+<h3>4️⃣ 中国面孔：Fu-Zhao Xiang（向福昭）</h3>
+<blockquote>
+<p>&quot;今年WS100女子组最值得关注的中国面孔是 Fu-Zhao Xiang——向福昭。她2024年在这里以16小时20分完赛，是史上女子第三快成绩。但遗憾的是，那年她拿了第二；2025年又拿了第二，连续两年输给不同的人。今年她来了，目标只有一个——站上最高处。作为中国超马界的代表，她身上承载着很多中国跑者的期待。&quot;</p>
+</blockquote>
+<h3>5️⃣ UTMB 和 Golden Ticket 体系（聊准入门槛）</h3>
+<blockquote>
+<p>&quot;WS100的报名中签率大概是5%到10%之间，和常青藤名校差不多。你需要先在指定的选拔赛里拿到资格成绩，或者通过 UTMB 系列的 Golden Ticket 赢得入场券。UTMB 就是环勃朗峰超级越野赛——超马界的世界杯。能在UTMB拿奖的选手，基本也拿到了WS100的入场券。&quot;</p>
+</blockquote>
+<h3>6️⃣ 聊退赛（DNF）的文化</h3>
+<blockquote>
+<p>&quot;超马有一个特殊文化叫 DNF——Did Not Finish。100英里赛道上，退赛并不是失败，而是理性的选择。WS100有句老话：&#x27;了解何时退赛的人，才是真正懂得100英里的人。&#x27;每年大约有20%到30%的选手会DNF。这不是失败——在极端情况下，保护自己的身体才是最大的智慧。&quot;</p>
+</blockquote>
+      <a class="back" href="#prep">返回解说准备包</a>
+    </article>
+    <article id="prep-terms" class="prep-chapter">
+      <h2>八、专业术语速查（中英对照）</h2>
+<table>
+<thead><tr><th>中文</th><th>English</th><th>解释</th></tr></thead>
+<tbody>
+<tr><td>超马/超级马拉松</td><td>Ultra / Ultramarathon</td><td>超过42.195公里的耐力跑</td></tr>
+<tr><td>补给站</td><td>Aid Station</td><td>赛道上的能量补给点</td></tr>
+<tr><td>领跑员/陪跑</td><td>Pacer</td><td>后半段可以有人陪同跑进终点（仅限后半程）</td></tr>
+<tr><td>换装包</td><td>Drop Bag</td><td>事先送到的补给包，内含赛中需要的装备/食物</td></tr>
+<tr><td>头灯</td><td>Headlamp / Light</td><td>夜间强制装备</td></tr>
+<tr><td>渡河点</td><td>River Crossing</td><td>WS78mile处的American River渡河</td></tr>
+<tr><td>关门时间</td><td>Cutoff</td><td>各补给站的最晚通过时间</td></tr>
+<tr><td>退赛</td><td>DNF (Did Not Finish)</td><td>未完赛</td></tr>
+<tr><td>强制装备</td><td>Mandatory Gear</td><td>必须随身携带的装备清单</td></tr>
+<tr><td>下坡</td><td>Downhill / Descent</td><td>下山路段</td></tr>
+<tr><td>上坡</td><td>Climbing / Ascent</td><td>爬山路段</td></tr>
+<tr><td>爬升</td><td>Elevation Gain</td><td>累计上升高度</td></tr>
+<tr><td>赛道</td><td>Course / Trail</td><td>比赛路线</td></tr>
+<tr><td>处子秀</td><td>Debut</td><td>首次参加该距离/赛事</td></tr>
+<tr><td>Golden Ticket</td><td>Golden Ticket</td><td>选拔赛直通名额</td></tr>
+<tr><td>完赛时间</td><td>Finish Time</td><td>到达终点的总时间</td></tr>
+<tr><td>换项区</td><td>Crew Access</td><td>选手团队可接触选手的区域</td></tr>
+</tbody>
+</table>
+      <a class="back" href="#prep">返回解说准备包</a>
+    </article>
+    <article id="prep-checklist" class="prep-chapter">
+      <h2>九、比赛日准备清单</h2>
+<h3>前一天（6月26日）</h3>
+<ul>
+<li>确认直播平台、时区和发布时间（5:00 PT = 北京时间6月27日晚上20:00）</li>
+<li>下载 WSER 官方追踪 app 或网站（实时追踪跑者位置）</li>
+<li>打印或保存精英选手名单（含国籍、去年成绩）</li>
+<li>确认天气：Olympic Valley 和 Auburn 当天天气</li>
+<li>准备两套开场白（精英对决版 vs 入门介绍版）</li>
+</ul>
+<h3>比赛日流程（北京时间参考）</h3>
+<table>
+<thead><tr><th>时间（PT）</th><th>时间（BJT +15h）</th><th>事件</th></tr></thead>
+<tbody>
+<tr><td>6/27 05:00</td><td>6/27 20:00</td><td>发枪</td></tr>
+<tr><td>6/27 10:00</td><td>6/28 01:00</td><td>精英预计过Emigrant Pass</td></tr>
+<tr><td>6/27 15:00</td><td>6/28 06:00</td><td>精英预计过Michigan Bluff（55mi）</td></tr>
+<tr><td>6/27 20:00</td><td>6/28 11:00</td><td>精英预计过Foresthill</td></tr>
+<tr><td>6/28 01:00</td><td>6/28 16:00</td><td>男子精英预计冲线</td></tr>
+<tr><td>6/28 01:30</td><td>6/28 16:30</td><td>女子精英预计冲线</td></tr>
+<tr><td>6/28 11:00</td><td>6/29 02:00</td><td>最后关门时间</td></tr>
+</tbody>
+</table>
+      <a class="back" href="#prep">返回解说准备包</a>
+    </article>
+    <article id="prep-10" class="prep-chapter">
+      <h2>十、高阶主播心法</h2>
+<h3>🎯 让观众爱上超马解说的三个原则</h3>
+<p>1. <strong>用故事包装数据</strong></p>
+<p>&quot;他配速7分半每英里&quot;是数据；&quot;他第75英里的时候还能以7分半的配速奔跑，而此时他已经在山里跑了将近20个小时&quot;是记忆点。</p>
+<p>2. <strong>让观众感受&quot;人类极限&quot;的真实感</strong></p>
+<p>超马的魅力在于它的原始感——头灯在黑夜里晃动、补给站的嘈杂声、跑者拖着腿走完最后几英里……把这些细节说出来，观众就能&quot;看到&quot;比赛。</p>
+<p>3. <strong>用中文创造独特视角</strong></p>
+<p>中国跑者对向福昭有天然的情感连接；中文解说可以讲中国超马圈的故事（中国的超马运动发展、精英跑者），这是英文解说给不了的视角。</p>
+      <a class="back" href="#prep">返回解说准备包</a>
+    </article>
+    <article id="prep-11" class="prep-chapter">
+      <h2>十一、精英选手快速档案卡（裁剪随身带）</h2>
+<h3>男子组</h3>
+<table>
+<thead><tr><th>选手</th><th>国籍</th><th>2026故事线</th></tr></thead>
+<tbody>
+<tr><td>Jim Walmsley</td><td>🇦🇺 澳大利亚</td><td>四冠王+赛道纪录，2025退赛，2026带伤回归</td></tr>
+<tr><td>Kilian Jornet</td><td>🇪🇸 西班牙</td><td>&quot;天空跑者&quot;，2025第3，14年后再战WS</td></tr>
+<tr><td>Adam Peterman</td><td>🇺🇸 美国</td><td>2022冠军，稳定性强</td></tr>
+<tr><td>Zach Miller</td><td>🇺🇸 美国</td><td><strong>12年来首战WS</strong>！2014放弃Golden Ticket</td></tr>
+<tr><td>Vincent Bouillard</td><td>🇫🇷 法国</td><td>2024 UTMB冠军</td></tr>
+<tr><td>Rod Farvard</td><td>🇺🇸 美国</td><td>2024亚军，2025 DNF</td></tr>
+<tr><td>David Roche</td><td>🇺🇸 美国</td><td>Leadville+Javelina双料冠军</td></tr>
+</tbody>
+</table>
+<h3>女子组</h3>
+<table>
+<thead><tr><th>选手</th><th>国籍</th><th>2026故事线</th></tr></thead>
+<tbody>
+<tr><td>Abby Hall</td><td>🇺🇸 美国</td><td>卫冕冠军，冲2012年来首个连霸</td></tr>
+<tr><td>Jennifer Lichter</td><td>🇺🇸 美国</td><td><strong>100英里首秀</strong>，Black Canyon赛道纪录</td></tr>
+<tr><td>Fu-Zhao Xiang</td><td>🇨🇳 中国</td><td>连续两年第二，2024史上女子第三快</td></tr>
+<tr><td>Molly Seidel</td><td>🇺🇸 美国</td><td>奥运马拉松铜牌，WS首秀</td></tr>
+<tr><td>Marianne Hogan</td><td>🇨🇦 加拿大</td><td>三次第三，稳定型</td></tr>
+<tr><td>Tara Dower</td><td>🇺🇸 美国</td><td>Javelina冠军，2025 WS DNF</td></tr>
+</tbody>
+</table>
+<p>*本指南由 maison-content 根据 WSER 官方资料、iRunFar、Outside Online 等公开来源整理 | 2026-06-22*</p>
+<p>*官方网站：wser.org | iRunFar 实时追踪*</p>
+      <a class="back" href="#prep">返回解说准备包</a>
+    </article>
+  </section>
   <section id="sources" class="footer">
     <h2>主要来源</h2>
     <p>Western States 2026 Entrants List: <a href="https://www.wser.org/2026-entrants-list/">https://www.wser.org/2026-entrants-list/</a></p>
